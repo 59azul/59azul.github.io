@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title> Formulário teste </title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Cadastre seu currículo</h1>
+        <form name="FormTeste">
+            <h2>1. Dados Pessoais</h2>
+            <div class="formularios">
+
+                <div class="CampoTexto">
+                    <input type="text" name="campoNome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="nomeCampo">
+                    Nome
+                </div>
+                <div class="CampoDate">
+                    <input type="date" name="dataNasc">
+                </div>
+                <div class="nomeCampo">
+                    Data de Nascimento
+                </div>
+                <div class="CampoSelect">
+                    <select name="estadoCivil">
+                        <option value="Solteiro(a)">Solteiro(a)</option>
+                        <option value="Casado(a)">Casado(a)</option>
+                        <option value="Viúvo(a)">Viúvo(a)</option>
+                        <option value="Divorciado(a)">Divorciado(a)</option>
+                    </select>
+                </div>
+                <div class="nomeCampo">
+                    Estado Civil
+                </div>
+                <div class="CampoRadio">
+                    <input type="radio" name="sexo" value="Masculino">Masculino
+                    <input type="radio" name="sexo" value="Feminino">Feminino
+                </div>
+                <div class="nomeCampo">
+                    Sexo
+                </div>
+
+            </div>
+
+            <h2>2. Objetivo</h2>
+
+            <div class="formularios">
+                <div class="CampoTextArea">
+                    <textarea name="" id="" cols="40" rows="3" placeholder="Digite seu objetivo" required></textarea>
+                </div>
+                <div class="nomeCampo nomeCampoTextArea">
+                    Objetivo
+                </div>
+            </div>
+
+            <h2>3. Contato</h2>
+            <div class="formularios">
+                <div class="CampoTexto">
+                    <input type="text" name="campoEndereco" placeholder="Digite seu endereço" required>
+                </div>
+                <div class="nomeCampo">
+                    Endereço
+                </div>
+                <div class="CampoTexto">
+                    <input type="text" name="campoCidade" placeholder="Digite sua cidade" required> /
+                    <input type="text" name="campoEstado" placeholder="Digite seu estado" required maxlength="2">
+                </div>
+                <div class="nomeCampo">
+                    Cidade/Estado
+                </div>
+                <div class="CampoTexto">
+                    <input type="text" name="campoCEP" placeholder="Digite seu CEP no formato 99999-999" required>
+                </div>
+                <div class="nomeCampo">
+                    CEP
+                </div>
+                <div class="CampoTexto">
+                    <input type="text" name="campoTel" placeholder="Digite seu telefone no formato (99) 9999-9999" required>
+                </div>
+                <div class="nomeCampo">
+                    Telefone
+                </div>
+                <div class="CampoTexto">
+                    <input type="text" name="campoEmail" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="nomeCampo">
+                    E-Mail
+                </div>
+                <div class="CampoRedeSocial">
+                    <img src="imagens/face.png" alt="Facebook"> htttp://facebook.com/
+                    <input type="text" name="campoFacebook" placeholder="Perfil Facebook"> <br>
+                    <img src="imagens/linkedin.png" alt="Linkedin"> http://linkedin.com/<input type="text" name="campoLinkedin" placeholder="Perfil linkedin"> <br>
+                    <img src="imagens/skype.png" alt="Skype"> <input type="text" name="campoSkype" placeholder="Perfil Skype">
+                </div>
+                <div class="nomeCampo nomeCampoRedeSocial">
+                    Redes Sociais
+                </div>
+            </div>
+            <h2>4. Conhecimentos</h2>
+            <div class="formularios">
+                <div class="CampoLinguagens">
+                    <input type="checkbox" name="Linguagens" value="C/C++"> C/C++ <br>
+                    <input type="checkbox" name="Linguagens" value="Java"> Java <br>
+                    <input type="checkbox" name="Linguagens" value="Visual Basic"> Visual Basic <br>
+                    <input type="checkbox" name="Linguagens" value=".Net"> .Net <br>
+                    <input type="checkbox" name="Linguagens" value="PHP"> PHP <br>
+                    <input type="checkbox" name="Linguagens" value="Python"> Python <br>
+                    <input type="checkbox" name="Linguagens" value="HTML"> HTML <br>
+                </div>
+                <div class="nomeCampo nomeCampoLinguagens">
+                    Linguagens de Programação
+                </div>
+                <div class="CampoSelect">
+                    Inglês
+                    <select name="ingles">
+                        <option value="Nível">Nível</option>
+                        <option value="Básico">Básico</option>
+                        <option value="Intermediário">Intermediário</option>
+                        <option value="Avançado">Avançado</option>
+                    </select> | Espanhol
+                    <select name="espanhol">
+                        <option value="Nível">Nível</option>
+                        <option value="Básico">Básico</option>
+                        <option value="Intermediário">Intermediário</option>
+                        <option value="Avançado">Avançado</option>
+                    </select>
+                </div>
+                <div class="nomeCampo">
+                    Idiomas
+                </div>
+            </div>
+            <input type="reset" name="limpar" value="Limpar" class="botoes"> |
+            <input type="submit" name="enviar" value="Enviar" class="botoes">
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

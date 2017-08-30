@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+    background-color: #242426;
+    color: ghostwhite;
+}
+
+container {
+    width: 100%;
+    height: 100%
+}
+
+h1 {
+    color: lightsteelblue;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: lightskyblue
+}
+
+.formularios {
+    max-width: 95%;
+}
+
+.nomeCampo {
+    padding: 1%;
+    width: 25%;
+    background-color: midnightblue;
+    border: 1px;
+}
+
+.CampoSelect {
+    float: right;
+    width: 70.7%;
+    padding: 1% 1% 0.8% 1%;
+    background-color: royalblue;
+    border: 1px;
+}
+
+.CampoTexto {
+    float: right;
+    width: 70.7%;
+    padding: 1% 1% 0.8% 1%;
+    background-color: royalblue;
+    border: 1px;
+}
+
+.CampoDate {
+    float: right;
+    width: 70.7%;
+    padding: 1% 1% 0.5% 1%;
+    background-color: royalblue;
+    border: 1px;
+}
+
+.CampoRadio {
+    float: right;
+    width: 70.7%;
+    padding: 1% 1% 1% 1%;
+    background-color: royalblue;
+    border: 1px;
+}
+
+.CampoTextArea {
+    float: right;
+    width: 70.7%;
+    padding: 1% 1% 0.8% 1%;
+    background-color: royalblue;
+    border: 1px;
+}
+
+.nomeCampoTextArea {
+    padding: 2.6% 1% 2.6% 1%
+}
+
+.CampoRedeSocial {
+    float: right;
+    width: 70.7%;
+    padding: 1% 1% 0.8% 1%;
+    background-color: royalblue;
+    border: 1px;
+}
+
+.nomeCampoRedeSocial {
+    padding: 3.4% 1% 3.4% 1%
+}
+
+.CampoLinguagens {
+    float: right;
+    width: 70.7%;
+    padding: 1% 1% 0.8% 1%;
+    background-color: royalblue;
+    border: 1px;
+}
+
+.nomeCampoLinguagens {
+    padding: 6.2% 1% 6.2% 1%
+}
+
+.botoes {
+    background-color: deepskyblue;
+    border-color: darkslateblue;
+    width: 10%;
+    font-size: 1.1em
+}
+
+input:required:invalid, input:focus:invalid {
+    background-image: url(../imagens/wrong.gif);
+    background-repeat: no-repeat;
+    background-position: right
+}
+
+input:required:valid {
+    background-image: url(../imagens/check.png);
+    background-repeat: no-repeat;
+    background-position: right
+}
+
+
